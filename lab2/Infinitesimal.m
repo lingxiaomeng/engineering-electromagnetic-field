@@ -1,6 +1,6 @@
 function [V,X0,Y0] = Infinitesimal(m)
 p=1e-9;%unit：C/m
-k=9e9; %electrostatic constant unit：F/m
+k=9e9; %electrostatic constant unit:F/m
 
 xm=4;        % Sets the x-direction range in the field
 ym=4;        % Sets the y-direction range in the field
