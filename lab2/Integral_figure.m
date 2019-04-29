@@ -6,7 +6,7 @@ figure(1)
 mesh(X0,Y0,V);% Plot the potential distribution
 grid on
 hold on;
-title({'the plot of electric potential distribution of a line charge in the vacuum','-integration','11711913 孟令啸'},'fontsize',12) ;%title the figure
+title({'the plot of electric potential distribution of a line charge in the vacuum','-integration','11711913 MengLingxiao'},'fontsize',12) ;%title the figure
 xlabel('X axis(unit:m)','fontsize',12);                    %label the x axis
 ylabel('Y axis(unit:m)','fontsize',12);                    %label the y axis
 %% 2 Plot equipotential lines 
@@ -17,7 +17,7 @@ figure(2)                                     %create figure(2)
 contour(X0,Y0,V,Veq);                         % plot equipotential lines
 grid on                                       % form a grid
 hold on                                       % hold the plot
-title({'Isopotential Line of Line charge Electric Field in vacuum','-integration','11711913 孟令啸'},'fontsize',12) ;%title the figure
+title({'Isopotential Line of Line charge Electric Field in vacuum','-integration','11711913 MengLingxiao'},'fontsize',12) ;%title the figure
 xlabel('X axis(unit:m)','fontsize',12);                    %label the x axis
 ylabel('Y axis(unit:m)','fontsize',12);                    %label the y axis
 
@@ -33,6 +33,6 @@ streamline(X0,Y0,Ex,Ey,xs,ys)
 grid on
 hold on
 contour(X0,Y0,V,Veq);
-title({'Isopotential Line and Power Line of Line charge Electric Field in vacuum (expressed by smooth continuous Curves)','-integration','11711913 孟令啸'},'fontsize',12) ;%title the figure
+title({'Isopotential Line and Power Line of Line charge Electric Field in vacuum (expressed by smooth continuous Curves)','-integration','11711913 MengLingxiao'},'fontsize',12) ;%title the figure
 xlabel('X axis(unit: m)', 'fontsize', 12);                    % label the x axis
 ylabel('Y axis (unit: m)', 'fontsize', 12);   
