@@ -1,6 +1,6 @@
 clear 
 clc
-V=Integral();
+[V,X0,Y0]=Integral();
 %% 1 Plot the potential distribution
 figure(1)
 mesh(X0,Y0,V);% Plot the potential distribution
