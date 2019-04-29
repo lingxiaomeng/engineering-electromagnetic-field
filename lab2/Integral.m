@@ -1,4 +1,4 @@
-function [V] = Integral()
+function [V,X0,Y0] = Integral()
 p=1e-9;      %unit：C/m
 k=9e9;       %electrostatic constant unit：F/m
 xm=4;        % Sets the x-direction range in the field
