@@ -1,4 +1,4 @@
-function [V] = Infinitesimal(m)
+function [V,X0,Y0] = Infinitesimal(m)
 p=1e-9;%unit：C/m
 k=9e9; %electrostatic constant unit：F/m
 
