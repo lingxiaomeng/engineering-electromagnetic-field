@@ -1,8 +1,6 @@
 clear
 clc
 m=50; %divide the line charge into 20 segment
-p=1e-9;%unit：C/m
-k=9e9; %electrostatic constant unit：F/m
 [V,X0,Y0]=Infinitesimal(m); 
 %% 1 Plot the potential distribution
 figure(1)
